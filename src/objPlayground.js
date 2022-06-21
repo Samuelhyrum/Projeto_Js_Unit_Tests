@@ -41,6 +41,9 @@ const calculator = (number1, number2) => ({
   sub: Math.floor(number1 - number2),
 });
 
-const arrayGenerator = (type, object) => { };
+const arrayGenerator = (type, object) => { 
+  if( type === 'keys') {
+  } return Object.keys(object);
+};
 
 module.exports = { calculator, arrayGenerator };
