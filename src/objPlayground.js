@@ -43,11 +43,11 @@ const calculator = (number1, number2) => ({
 
 const arrayGenerator = (type, object) => {
   if (type === 'keys') {
-    Object.keys(object);
-  } else if (type === 'values') {
-    Object.values(object);
-  } else if (type === 'entries') {
-    Object.entries(object);
+    return (Object.keys(object));
+  } if (type === 'values') {
+    return (Object.values(object));
+  } if (type === 'entries') {
+  return (Object.entries(object));
   }
 };
 
